@@ -1,0 +1,162 @@
+* { box-sizing: border-box; 
+}
+body {     margin: 0;  
+        font-family: Arial, Helvetica, sans-serif; 
+       background-image: url("assets\images\fishnets-and-hearts\fishnets-and-hearts.png");
+       background-color: #cccccc;
+    }
+
+    
+        
+
+header h1 { background-color: #4aaaa5;
+        color: #ffffff;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+       
+        float: left;
+        padding: .75em;
+        margin-left: 120px;
+    }
+
+    header { font-family: Arial, Helvetica, sans-serif;
+            background-color: #ffffff;
+          height: 140px;
+          
+        }
+
+    nav { font-size: 120%;           
+            padding-right: 2em;
+            padding-top: 5em;
+            position: relative;
+            float:right;
+            margin-right: 50px;
+    }
+
+nav ul { list-style-type: none;
+        margin: 0;
+    }
+
+    nav a { text-decoration: none;
+            display: block;
+        }
+
+        nav li { display: inline-block;
+                    margin:0;
+                    text-align: center;
+                    color: #777777;
+                    font-family: Arial, Helvetica, sans-serif;
+                    padding-left: 2em;
+                    
+                }
+
+        h2 { font-family: Georgia, 'Times New Roman', Times, serif;
+            color: #4aaaa5;
+            
+        }
+        
+        main { background-color: #ffffff;
+                color: #000000;
+                overflow: auto;
+                border: 1px #dddddd solid; 
+                margin: 30px auto;
+                max-width: 960px;
+                max-height: 960px;
+                padding-bottom: 2em;
+                padding-left: 3em;
+            }
+
+            #portrait { height: 200px;
+                        width: 200px;
+                        float: left;
+                        margin: 20px 20px;
+                    }
+
+            
+            footer { text-align: center;
+                        border-top: 8px solid #4aaaa5;
+                        background-color: #666666; 
+                        padding-top: 1em;
+                        color: #ffffff;
+                        margin: 0;
+                        width: auto;
+            }
+
+            hr {  padding-left: 2em;
+                margin-right: 100px;
+                padding-right: 3em;
+               
+                
+            }
+
+            p { text-align: center;
+                padding: 25px;
+                width: auto;
+                height: auto;
+                margin-right: 50px;
+                 }
+
+                 input[type=text] { width: 81%;
+                    columns: 100;
+                    margin: .5em 0;
+                    
+                }
+
+                input[type=submit] {
+                    background: #4aaaa5;
+                    color: #ffffff;
+                    height: 36px;
+                    width: 86px;
+                    font-weight: bold;
+                    font-size: 14px;
+                    
+                }
+
+                input[textarea] { width: auto;
+                                    height: auto;
+                            }
+
+                            form { font-family: Arial, Helvetica, sans-serif;
+                                    font-size: 20px;
+                                  
+                            }
+
+                            .portfolio { display: flex;
+                                            justify-content: center;
+                                        flex-wrap: wrap;
+                                        height: 450px;
+                                        width: 600px;
+                                        margin-right: 50px;
+                                      
+                                    }
+               
+                            .portfolio > div { margin: 10px;
+                                                text-align: center;
+                                                font-size: 24px;
+                                                line-height: 36px;
+                                           height: 150px;
+                                    width: 150px;
+                                    background: #666666;
+                                   
+                                }
+                                
+
+                                .text { background: #4aaaa5;
+                                            color: #ffffff; 
+                                            height: 40px;  
+                                            width: 150px;
+                                            bottom: 65px;
+                                           z-index: 1;
+                                           font-size: 14px;
+                                            position: relative;
+                                            font-weight: bold;
+                                        }
+
+                                        html, body {
+                                            height: 100%;
+                                          }
+                                         
+                                        
+                                          .footer {
+                                            flex-shrink: 0;
+                                          }
+
